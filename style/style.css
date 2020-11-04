@@ -1,0 +1,54 @@
+/*body*/
+
+body{
+    color:white;
+    background-image: url(Poro.jpg),url(Wood.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 10%, cover;
+  }
+  header, footer{
+     border: 3px solid #fff;
+     border-radius: 31px;
+     padding: 10px;
+     background-image: url(Stars.jpg);
+     background-repeat:repeat-x;
+      }
+  header h1{
+    font-family:Courier New;
+    letter-spacing: 0.1cm;
+    font-size: 30px;
+  }
+  section{
+    font-family:Courier New;
+    padding: 30px;/*если скасилась*/
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 300px;
+  }
+  nav ul li{
+    display: inline;
+    margin: 5px;
+    }
+  nav ul{
+    text-align: center;
+    list-style: none;
+  }
+  nav li{
+    font-family:Courier New;
+    padding: 1%;
+    background-color:black;
+    border: 3px solid #fff;
+  }
+  nav li a:hover{
+    text-decoration: underline;/*подчёркивание*/
+    padding: 1%;
+  }
+  a:link, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
